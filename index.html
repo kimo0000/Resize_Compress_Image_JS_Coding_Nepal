@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resize & Compress IMage JS Coding Nepal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <header>
+            <input type="file" accept="imgs/*" hidden>
+            <img src="imgs/upload.jpg" alt="image">
+            <p>browse File To Upload</p>
+        </header>
+        <div class="content">
+            <div class="inputs">
+                <div class="inputs_width">
+                    <label for="width">Width</label>
+                    <input type="number" class="iput_width" id="width">
+                </div>
+                <div class="inputs_height">
+                    <label for="height">Height</label>
+                    <input type="number" class="iput_height" id="height">
+                </div>
+            </div>
+            <div class="checked">
+                <div class="check_radio">
+                    <input type="checkbox" id="radio">
+                    <label for="radio">Lock Aspect Ratio</label>
+                </div>
+                <div class="check_quality">
+                    <input type="checkbox" id="quality">
+                    <label for="quality">Reduce Quality</label>
+                </div>
+            </div>
+            <button class="dowload">DOWNLOAD IMAGE</button>
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
